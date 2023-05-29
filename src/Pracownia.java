@@ -17,7 +17,7 @@ public class Pracownia {
         while (iterator.hasNext()) {
             Osoba osoba = iterator.next();
             Komputer komputer = przypisania.get(osoba);
-            System.out.println(osoba + " -> " + komputer);
+            System.out.println(osoba.getImie() + ", " + osoba.getNazwisko() + " -> " + komputer.getNumer());
         }
     }
 }
