@@ -32,4 +32,5 @@ public class Osoba {
     public void setPESEL(String PESEL) {
         this.PESEL = PESEL;
     }
+
 }

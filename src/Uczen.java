@@ -1,4 +1,4 @@
-public class Uczen extends Osoba {
+public class Uczen extends Osoba{
     private String klasa;
     private Boolean czyZdaje;
 
