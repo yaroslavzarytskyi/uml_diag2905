@@ -1,9 +1,10 @@
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
 public class Pracownia {
-    private Map<Osoba, Komputer> przypisania;
+    private Map<Osoba, Komputer> przypisania = new HashMap<>();
 
     public void dodajKomputerDoUcznia(Uczen uczen, Komputer komputer) {
         przypisania.put(uczen, komputer);
